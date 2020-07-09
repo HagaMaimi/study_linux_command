@@ -1,1 +1,5 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+user@GLM-14-240-JP:~/ios_work/ios-haga$ find . -type f -print0 | xargs -0 grep sample
+./sample.txt:1.sample
+./sample.txt:3.sample

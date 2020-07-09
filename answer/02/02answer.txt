@@ -1,1 +1,10 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+user@GLM-14-240-JP:~$ cat /etc/shells
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+/usr/bin/tmux
+/usr/bin/screen

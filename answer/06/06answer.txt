@@ -1,1 +1,44 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+・date +%T … dateはMon Jul  6 15:37:57 JST 2020のように現在の西暦/標準時/コマンドを打った時点の時間/日付/曜日
+が表示される。+%Tが追加されることでこのコマンドを打った時点での時間（秒数まで）が表示される。
+・history 5 … 「history」コマンドは、コマンド入力の履歴（ヒストリー）が表示される。５のような整数値を
+オプションで付けることで履歴の末尾から指定した行数分を表示される。
+・ls -alF … lsコマンドは「list segments」の略で、ファイルやディレクトリの情報が表示される。
+「a」はファイル名の先頭にピリオドがあるファイルも表示する。先頭にピリオドがあるファイルはLinuxのシステムと結びつき、
+普段簡単には編集されたくない設定ファイルのようなものが多い。
+「l」はlongなフォーマットを意味する。longというだけあって詳細を表示して、横長になる。
+「F」はディレクトリ名の後に「/」を、実行可能なファイル名の後に「*」をそれぞれ付加するオプション。
+☆結果
+user@GLM-14-240-JP:~$ alias now='date +%T'
+user@GLM-14-240-JP:~$ alias his='history 5'
+user@GLM-14-240-JP:~$ alias alF='ls -alF'
+user@GLM-14-240-JP:~$ alias
+alias alF='ls -alF'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias his='history 5'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+alias now='date +%T'
+user@GLM-14-240-JP:~$ now
+09:03:12
+user@GLM-14-240-JP:~$ alF
+total 8
+drwxr-xr-x 1 user user  512 Jul  6 14:25 ./
+drwxr-xr-x 1 root root  512 Jul  6 14:24 ../
+-rw-r--r-- 1 user user  220 Jul  6 14:24 .bash_logout
+-rw-r--r-- 1 user user 3771 Jul  6 14:24 .bashrc
+drwxrwxrwx 1 user user  512 Jul  6 14:25 .cache/
+drwx------ 1 user user  512 Jul  6 14:25 .config/
+-rw-r--r-- 1 user user  807 Jul  6 14:24 .profile
+user@GLM-14-240-JP:~$ his
+   13  alias alF='ls -alF'
+   14  alias
+   15  now
+   16  alF
+   17  his

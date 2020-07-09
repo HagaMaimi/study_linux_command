@@ -1,1 +1,24 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+user@GLM-14-240-JP:~/ios_work/ios-haga$ ls -alFt
+total 0
+drwxrwxrwx 1 user user 512 Jul  7 15:22 ./
+-rw-rw-rw- 1 user user  31 Jul  7 15:22 sample.txt
+-rw-rw-rw- 1 user user   0 Jul  7 10:47 nowhere
+-rw-rw-rw- 1 user user   0 Jul  7 10:46 nothing
+-rw-rw-rw- 1 user user   0 Jul  7 10:46 nobody
+-rw-rw-rw- 1 user user   0 Jul  7 10:46 none
+-rw-rw-rw- 1 user user   0 Jul  7 10:46 abc2121
+-rw-rw-rw- 1 user user   0 Jul  7 10:46 abc21xyz
+-rw-rw-rw- 1 user user   0 Jul  7 10:46 abc91
+-rw-rw-rw- 1 user user   0 Jul  7 10:46 abc9
+-rw-rw-rw- 1 user user   0 Jul  7 10:46 abc29
+-rw-rw-rw- 1 user user   0 Jul  7 10:45 ab345
+-rw-rw-rw- 1 user user   0 Jul  7 10:45 ab3
+-rw-rw-rw- 1 user user   0 Jul  7 10:45 ab2
+-rw-rw-rw- 1 user user   0 Jul  7 10:45 Ab1
+-rw-rw-rw- 1 user user   0 Jul  7 10:45 Abc1
+-rw-rw-rw- 1 user user   0 Jul  7 10:45 abc2191
+-rw-rw-rw- 1 user user   0 Jul  7 10:44 abc1
+-rw-rw-rw- 1 user user   0 Jul  7 10:44 abc
+drwxrwxrwx 1 user user 512 Jul  7 10:21 ../

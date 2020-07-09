@@ -1,1 +1,12 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+（１）"echo $?"を実行せよ
+☆結果
+user@GLM-14-240-JP:~/ios_work/ios-haga$ echo $?
+0
+（２）カレントディレクトリから、ファイル内の文字列"none"を検索し、"echo $?"を実行せよ。
+☆結果
+user@GLM-14-240-JP:~/ios_work/ios-haga$ find . -type f -print0 | xargs -0 grep none
+user@GLM-14-240-JP:~/ios_work/ios-haga$ echo $?
+123
+（１）と（２）の実行結果が異なることを確認し、"echo $?"の意味を確認し報告せよ。

@@ -1,1 +1,4 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+user@GLM-14-240-JP:~$ mkdir -p ios_work/ios-haga
+user@GLM-14-240-JP:~$ cd ios-haga

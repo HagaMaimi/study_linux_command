@@ -1,1 +1,14 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+user@GLM-14-240-JP:~/ios_work/ios-haga$ find . -type f -name a\*
+./ab2
+./ab3
+./ab345
+./abc
+./abc1
+./abc2121
+./abc2191
+./abc21xyz
+./abc29
+./abc9
+./abc91
