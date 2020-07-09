@@ -1,1 +1,10 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+user@GLM-14-240-JP:~/ios_work/ios-haga$ tail -n 2 test2.txt
+dd
+（空行）
+
+
+user@GLM-14-240-JP:~/ios_work/ios-haga$ cat test2.txt
+cc
+dd
+（空行）

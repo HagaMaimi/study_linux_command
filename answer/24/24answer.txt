@@ -1,1 +1,8 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+user@GLM-14-240-JP:~/ios_work/ios-haga/dir1$ mkdir dir2
+user@GLM-14-240-JP:~/ios_work/ios-haga/dir1$ ls
+abc3  dir2
+user@GLM-14-240-JP:~/ios_work/ios-haga/dir1$ rmdir dir2
+user@GLM-14-240-JP:~/ios_work/ios-haga/dir1$ ls
+abc3

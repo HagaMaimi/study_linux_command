@@ -1,1 +1,9 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+user@GLM-14-240-JP:~/ios_work/ios-haga$ diff test1.txt test2.txt
+1,2c1,2
+< aa
+< bb
+---
+> cc
+> dd

@@ -1,1 +1,5 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+user@GLM-14-240-JP:~$ find . -type f -name ab3\* -or -name ab4\*
+./ios_work/ios-haga/ab3
+./ios_work/ios-haga/ab345

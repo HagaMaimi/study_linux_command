@@ -1,1 +1,14 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+PID->プロセスID
+TTY->仮想端末ファイル
+TIME->プロセスが実際にCPUを使った時間
+CMD->プロセスの実行コマンド
+
+bash（バッシュ）とは「Bourne Again Shell」の略で、
+Linuxでコマンドなどの命令文を記述したシェルを実行するために使われます。
+
+user@GLM-14-240-JP:~/ios_work/ios-haga$ ps
+  PID TTY          TIME CMD
+   33 tty1     00:00:01 bash
+  116 tty1     00:00:00 ps
+

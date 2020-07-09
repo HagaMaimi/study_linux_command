@@ -1,1 +1,21 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+user@GLM-14-240-JP:~$ find . -type f \! -name a\*
+./.bash_history
+./.bash_logout
+./.bashrc
+./.cache/wslu/integration
+./.profile
+./.viminfo
+./TEST
+./ios_work/ios-haga/Ab1
+./ios_work/ios-haga/Abc1
+./ios_work/ios-haga/nobody
+./ios_work/ios-haga/none
+./ios_work/ios-haga/nothing
+./ios_work/ios-haga/nowhere
+./ios_work/ios-haga/sample.txt
+./ios_work/ios-haga/test1.txt
+./ios_work/ios-haga/test2.txt
+./ios_work/ios-haga/text1.txt
+./ios_work/ios-haga/text2.txt
