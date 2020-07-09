@@ -1,1 +1,5 @@
 このファイルに解答のコマンドと実行結果を記載してコミット／プッシュしてください。
+
+
+user@GLM-14-240-JP:~$ echo hello world
+hello world
